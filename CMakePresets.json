@@ -1,0 +1,14 @@
+﻿{
+	"version": 1,
+	"configurePresets": [
+		{
+			"name": "Windows",
+			"generator": "Visual Studio 16 2019",
+			"architecture": "x64",
+			"binaryDir": "_build",
+			"cacheVariables": {
+				"CMAKE_INSTALL_PREFIX": "_install"
+            }
+		}
+	]
+}

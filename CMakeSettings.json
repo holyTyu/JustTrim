@@ -1,24 +1,23 @@
 ﻿{
-    "version": 2,
     "configurations": [
         {
-            "name": "x64-Debug",
+            "name": "Release",
             "generator": "Ninja",
-            "configurationType": "Debug",
+            "configurationType": "Release",
             "inheritEnvironments": [ "msvc_x64_x64" ],
-            "buildRoot": "${projectDir}\\_out\\build\\${name}",
-            "installRoot": "${projectDir}\\_out\\install",
+            "buildRoot": "${projectDir}\\_build\\${name}",
+            "installRoot": "${projectDir}\\_install",
             "cmakeCommandArgs": "",
             "buildCommandArgs": "",
             "ctestCommandArgs": ""
         },
         {
-            "name": "x64-Release",
+            "name": "Debug",
             "generator": "Ninja",
-            "configurationType": "Release",
+            "configurationType": "Debug",
             "inheritEnvironments": [ "msvc_x64_x64" ],
-            "buildRoot": "${projectDir}\\_out\\build\\${name}",
-            "installRoot": "${projectDir}\\_out\\install",
+            "buildRoot": "${projectDir}\\_build\\${name}",
+            "installRoot": "${projectDir}\\_install",
             "cmakeCommandArgs": "",
             "buildCommandArgs": "",
             "ctestCommandArgs": ""
